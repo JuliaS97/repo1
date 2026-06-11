@@ -1,0 +1,4 @@
+TC_ID,Title,Steps,Expected_Result,Priority
+TC-001,Login with valid credentials,"1. Open app; 2. Enter valid login/password; 3. Click Login",User is redirected to dashboard,High
+TC-002,Login with invalid password,"1. Open app; 2. Enter valid login and wrong password; 3. Click Login",Error message ""Invalid credentials"" is shown,High
+TC-003,Empty login field validation,"1. Open app; 2. Leave login field empty; 3. Click Login",Error message ""Login is required"" is shown,Medium
